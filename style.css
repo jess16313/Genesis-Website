@@ -7,8 +7,8 @@ body {
 .sticky-upperbar {
     position: sticky;
     top: 0;
-    background: linear-gradient(to right, #AB75F0, #EABFFF);
-    padding: 10px 0;
+    background: linear-gradient(to right, #BDE5F7, #EABFFF);
+    padding: 40 px 0;
     z-index: 1000;
 }
 
@@ -45,6 +45,24 @@ body {
     padding: 10px 20px;
 }
 
-.nav-items a:hover {
-    text-decoration: underline;
+.background-video{
+	width:100%;
+	height: 100%;
+	object-fit:cover;
+	opacity: 0.6;
+}
+
+.title-overlay{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: black;
+	text-align: center;
+}
+
+.title-overlay h1{
+	font-size: 3 em;
+	margin: 0;
+	padding: 0;
 }
