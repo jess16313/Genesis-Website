@@ -8,7 +8,7 @@ body {
     position: sticky;
     top: 0;
     background: linear-gradient(to right, #BDE5F7, #EABFFF);
-    padding: 40 px 0;
+    padding: 60 px 0;
     z-index: 1000;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .logo img {
-    max-height: 50px; /* Adjust as needed */
+    max-height: 100px; /* Adjust as needed */
     width: auto;
     height: auto;
 }
@@ -62,7 +62,55 @@ body {
 }
 
 .title-overlay h1{
-	font-size: 60px ;
+	font-size: 120px ;
 	margin: 0;
 	padding: 0;
+}
+
+.about-section{
+	position:relative;
+	overflow: hidden;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	background:linear-gradient(to left, #FFFFFF, #AB75F0, #FFFFFF");
+	animation: slide-in 2s forwards;
+	transform: translateX(100%);
+}
+
+@keyframes slide-in{
+	from{
+		trasnform: translateX(100%);
+	}
+	to{
+		transform: translateX(0);
+	}
+}
+
+.about-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	max-width: 1200px;
+}
+
+.about-text p{
+	color:white;
+	text-align: right;
+	max-width: 50%;
+}
+
+.about-content h2{
+	color:white;
+	font-size: 60px;
+	margin: 0;
+	padding: 0;
+}
+
+.about-image img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
 }
