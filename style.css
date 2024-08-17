@@ -146,6 +146,7 @@ nav ul li a {
 .merch-section {
     padding: 40px 20px;
     background-color: #25006A;
+    color: white;
 }
 
 .merch-items {
@@ -156,14 +157,19 @@ nav ul li a {
 }
 
 .merch-item img{
-    max height: 300 px;
+    max-height: 150px;
     width: auto;
+    height: auto;
+    border-radius: 5px;
+}
+
+.merch-item h2, .merch-item p{
+    color: white;
 }
 
 .merch-item {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-    color: white;
     border-radius: 10px;
     padding: 20px;
     width: 300px;
