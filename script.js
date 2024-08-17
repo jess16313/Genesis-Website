@@ -5,10 +5,11 @@ document.addEventListener("DOMContentLoaded", function() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add("slide-in");
-                observer.unobserve(entry.target);
+            } else {
+                entry.target.classList.remove("slide-in");
             }
         });
-    });
+    }, { threshold: 0.1 }); // Adjust the threshold as needed
 
     observer.observe(aboutSection);
 });
