@@ -142,3 +142,56 @@ nav ul li a {
     max-width: 100%;
     height: auto;
 }
+
+.merch-section {
+    padding: 40px 20px;
+    background-color: #25006A;
+}
+
+.merch-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.merch-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.merch-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.merch-item h2 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.merch-item p {
+    font-size: 1em;
+    color: white
+    margin: 10px 0;
+}
+
+.buy-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8885F9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.buy-now-button:hover {
+    background-color: #5601BD;
+}
