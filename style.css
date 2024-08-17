@@ -2,13 +2,12 @@ body {
     font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
-    text-decoration-color: white;
 }
 
 .sticky-upperbar {
     position: sticky;
     top: 0;
-    background: linear-gradient(to right, #8800BF, #8885F9);
+    background: linear-gradient(to right, #8885F9, #8800BF);
     height: 70px; 
     display: flex;
     align-items: center;
@@ -24,14 +23,17 @@ body {
     padding: 0 20px;
 }
 
-.logo{
-    margin-right:auto;
+nav {
+    color:white;
 }
 
-.logo img {
-    max-height: 50px; 
-    width: auto;
-    height: auto;
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    align:left;
 }
 
 nav ul {
@@ -40,6 +42,12 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+.logo img {
+    max-height: 50px; 
+    width: auto;
+    height: auto;
 }
 
 .nav-items ul {
