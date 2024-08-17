@@ -155,9 +155,15 @@ nav ul li a {
     justify-content: center;
 }
 
+.merch-item img{
+    max height: 300 px;
+    width: auto;
+}
+
 .merch-item {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
+    color: white;
     border-radius: 10px;
     padding: 20px;
     width: 300px;
