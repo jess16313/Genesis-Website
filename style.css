@@ -12,23 +12,34 @@ body {
     display: flex;
     align-items: center;
     z-index: 1000;
+    padding: 0 20px;
+}
+
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav-items {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.logo {
-   display: inline-block; 
+.logo img {
+    max-height: 50px; 
+    width: auto;
+    height: auto;
 }
 
 nav {
-    margin-left: auto; 
+    display: flex;
+    align-item: center;
 }
 
 nav ul {
@@ -45,14 +56,6 @@ nav ul li a {
     padding: 10px 20px;
 }
 
-
-.logo img {
-    max-height: 50px; 
-    width: auto;
-    height: auto;
-}
-
-/* Additional container or utility classes */
 .video-container {
     position: relative;
     width: 100%;
