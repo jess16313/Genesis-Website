@@ -146,6 +146,28 @@ nav ul li a {
     height: auto;
 }
 
+.calendar-section {
+    padding: 20px; /* Optional padding inside the section */
+    margin-top: 50px; /* Adjust this value to increase or decrease the gap */
+    text-align: center;
+}
+
+.calendar-embedded {
+    display: flex;
+    border: 2px solid #888; /* Adjust the border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 10px; /* Padding inside the container */
+    background-color: #25006A; /* Background color to make it stand out */
+    display: inline-block; /* Keeps the calendar centered and properly sized */
+    justify-content: center;
+
+}
+
+iframe {
+    border: solid 1px #777;
+}
+
 .merch-section {
     padding: 40px 20px;
     background-color: #25006A;
