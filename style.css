@@ -8,6 +8,7 @@ body {
 h1 {
     font-weight: 800;
     text-align: center;
+    font-size: 4em;
     color: white;
 }
 
@@ -96,12 +97,13 @@ nav ul li a {
 
 .title-overlay {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
     z-index: 100;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .about-section {
@@ -178,6 +180,7 @@ iframe {
 
 .merch-section {
     padding: 40px 20px;
+    justify-content: center;
     background-color: #25006A;
     color: white;
 }
