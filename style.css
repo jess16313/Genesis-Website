@@ -18,6 +18,7 @@ h2 {
 .title {
     font-weight: 800;
     text-align: center;
+    color: white;
 }
 
 .sticky-upperbar {
@@ -104,12 +105,7 @@ nav ul li a {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-}
-
-.title-overlay h1 {
-    font-size: 3em;
-    margin: 0;
-    padding: 0;
+    z-index: 10;
 }
 
 .about-section {
@@ -138,7 +134,7 @@ nav ul li a {
 
 .about-text {
     color: white;
-    text-align: right;
+    text-align: left;
     max-width: 50%;
     padding-left: 20px;
 }
@@ -192,44 +188,35 @@ iframe {
 
 .merch-items {
     display: flex;
+    max-width: 300px;
+    text-align: center;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
 }
 
-.merch-item img{
-    max-height: 150px;
-    width: auto;
+.merch-items img{
+    width: 100%;
     height: auto;
+    object-fit: cover;
     border-radius: 5px;
 }
 
 .merch-item h2, .merch-item p{
     color: white;
-}
-
-.merch-item {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    width: 300px;
     text-align: center;
-}
-
-.merch-item img {
-    max-width: 100%;
-    height: 200px;
 }
 
 .merch-item h2 {
     font-size: 1.5em;
-    color: white;
 }
 
 .merch-item p {
     font-size: 1em;
-    color: white
     margin: 10px 0;
 }
 
