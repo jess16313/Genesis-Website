@@ -1,7 +1,23 @@
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400; 
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    text-align: center;
+}
+
+.title {
+    font-weight: 800;
+    text-align: center;
 }
 
 .sticky-upperbar {
@@ -231,4 +247,22 @@ iframe {
 
 .buy-now-button:hover {
     background-color: #5601BD;
+}
+
+.join-section{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #25006A;
+    color:white;
+}
+
+.join-content{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.join-content iframe{
+    border: none;
 }
