@@ -8,7 +8,6 @@ body {
 h1 {
     font-weight: 800;
     text-align: center;
-    font-size: 5em;
     color: white;
 }
 
@@ -97,12 +96,21 @@ nav ul li a {
 
 .title-overlay {
     position: absolute;
-    top: 75%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    z-index: 100;
+    z-index: 10;
+}
+
+.title-overlay h1{
+    font-size: 5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.title-overlay h2{
+    font-size: 3em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -197,7 +205,6 @@ iframe {
     gap: 20px;
     justify-content: center;
     padding: 0;
-    justify-content: center;
 }
 
 .merch-items img{
