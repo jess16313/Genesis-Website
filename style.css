@@ -289,7 +289,7 @@ iframe {
 }
 
 .flyer{
-    width: 45%;
+    width: auto;
     height: auto;
     max-height: 450px;
 }
