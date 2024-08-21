@@ -109,12 +109,12 @@ nav ul li a {
     font-weight: 800;
     margin: 0;
     padding: 0;
-    line-height: 0.5;
+    line-height: 0.8;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .title-overlay h2 {
-    font-size: 2em; 
+    font-size: 3em; 
     font-weight: 700;
     margin: 0;
     padding: 0;
