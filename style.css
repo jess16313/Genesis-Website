@@ -188,7 +188,7 @@ nav ul li a {
 }
 
 .calendar-section {
-    margin-top: 50px; /* Adjust this value to increase or decrease the gap */
+    padding: 20px; /* Optional padding inside the section */
     text-align: center;
     background-color: #AB75F0;
 }
