@@ -121,6 +121,21 @@ nav ul li a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+.slide-in, .slide-out {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateX(100px);
+}
 
 .about-section {
     position: relative;
