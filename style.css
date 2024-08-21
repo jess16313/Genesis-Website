@@ -144,7 +144,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle, #AB75F0, #ffffff);
+    background: linear-gradient( #ffffff, #AB75F0);
     opacity: 1;
     transform: opacity 2s ease-in-out;
 }
@@ -191,6 +191,7 @@ nav ul li a {
     padding: 20px; /* Optional padding inside the section */
     margin-top: 50px; /* Adjust this value to increase or decrease the gap */
     text-align: center;
+    background-color: #AB75F0;
 }
 
 .calendar-embedded {
