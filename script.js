@@ -9,15 +9,13 @@ function isInViewport(element) {
 }
 
 function handleScroll() {
-    const elements = document.querySelectorAll('.slide-in, .slide-out');
+    const elements = document.querySelectorAll('.slide-in');
     
     elements.forEach(element => {
         if (isInViewport(element)) {
-            console.log("Element in viewport: ", element); // Log which elements are in the viewport
             element.classList.add('visible');
             element.classList.remove('hidden');
         } else {
-            console.log("Element out of viewport: ", element); // Log which elements are out of the viewport
             element.classList.remove('visible');
             element.classList.add('hidden');
         }
@@ -25,5 +23,4 @@ function handleScroll() {
 }
 
 window.addEventListener('scroll', handleScroll);
-
 window.addEventListener('load', handleScroll);
