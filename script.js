@@ -8,15 +8,16 @@ function isInViewport(element) {
     );
 }
 
-// Function to handle scroll and apply classes
 function handleScroll() {
     const elements = document.querySelectorAll('.slide-in, .slide-out');
     
     elements.forEach(element => {
         if (isInViewport(element)) {
+            console.log("Element in viewport: ", element); // Log which elements are in the viewport
             element.classList.add('visible');
             element.classList.remove('hidden');
         } else {
+            console.log("Element out of viewport: ", element); // Log which elements are out of the viewport
             element.classList.remove('visible');
             element.classList.add('hidden');
         }
