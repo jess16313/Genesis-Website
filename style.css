@@ -299,7 +299,12 @@ iframe {
 /*Will leave this here and learn more about it later*/
 
 @media (max-width: 768px) {
+    nav ul li a{
+        font-size: 0.9em;
+    }
+
     .video-container {
+
         height: 50vh; /* Adjust video height for smaller screens */
     }
 
