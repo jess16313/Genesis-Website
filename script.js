@@ -8,9 +8,8 @@ function isInViewport(element) {
     );
 }
 
-// Function to handle scroll and apply classes
 function handleScroll() {
-    const elements = document.querySelectorAll('.slide-in, .slide-out');
+    const elements = document.querySelectorAll('.slide-in');
     
     elements.forEach(element => {
         if (isInViewport(element)) {
@@ -24,5 +23,4 @@ function handleScroll() {
 }
 
 window.addEventListener('scroll', handleScroll);
-
 window.addEventListener('load', handleScroll);
